@@ -1,4 +1,4 @@
-package dan.flights.quickflights;
+package dan.flights.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

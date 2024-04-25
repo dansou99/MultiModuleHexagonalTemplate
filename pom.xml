@@ -8,14 +8,19 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dan.flights</groupId>
-	<artifactId>QuickFlights</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<name>QuickFlights</name>
-	<description>QuickFlights</description>
+	<description>Using Ryanair API to provide various travel suggestions</description>
+
+	<artifactId>QuickFlights</artifactId>
+	<groupId>dan.flights</groupId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,21 +49,5 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
