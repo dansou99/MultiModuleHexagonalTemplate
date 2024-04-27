@@ -1,10 +1,10 @@
-package dan.flights.application;
+package com.template.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuickFlightsApplicationTests {
+class MultiModuleHexagonalTemplateApplicationTests {
 
 	@Test
 	void contextLoads() {

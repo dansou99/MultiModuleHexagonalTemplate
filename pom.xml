@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<name>QuickFlights</name>
-	<description>Using Ryanair API to provide various travel suggestions</description>
+	<name>MultiModuleHexagonalTemplate</name>
+	<description>TBD</description>
 
-	<artifactId>QuickFlights</artifactId>
-	<groupId>dan.flights</groupId>
+	<artifactId>HexaMultiTemplate</artifactId>
+	<groupId>com.template</groupId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 

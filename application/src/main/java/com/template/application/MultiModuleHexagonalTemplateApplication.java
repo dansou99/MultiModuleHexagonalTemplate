@@ -1,13 +1,13 @@
-package dan.flights.application;
+package com.template.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuickFlightsApplication {
+public class MultiModuleHexagonalTemplateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuickFlightsApplication.class, args);
+		SpringApplication.run(MultiModuleHexagonalTemplateApplication.class, args);
 	}
 
 }
