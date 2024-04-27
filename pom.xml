@@ -12,6 +12,7 @@
 	<name>MultiModuleHexagonalTemplate</name>
 	<description>TBD</description>
 
+
 	<artifactId>HexaMultiTemplate</artifactId>
 	<groupId>com.template</groupId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -20,6 +21,13 @@
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+
+	<modules>
+		<module>application</module>
+		<module>domain</module>
+		<module>input</module>
+		<module>output</module>
+	</modules>
 
 	<dependencies>
 		<dependency>
