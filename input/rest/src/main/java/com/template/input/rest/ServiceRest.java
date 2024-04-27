@@ -21,9 +21,9 @@ public class ServiceRest {
     private final Logger LOG = LoggerFactory.getLogger(ServiceRest.class);
 
     @GetMapping("/sayHello/{name}")
-    public ResponseEntity<String> getSayHelloName(
+    public ResponseEntity<String> getSayHello(
             @PathVariable("name") String name) {
-        LOG.info("operation=getSayHelloName={}, message='Saying Hello!'", name);
+        LOG.info("operation=getSayHello={}, message='Saying Hello!'", name);
         String response = serviceAdapter.getHelloName(name);
         return ResponseEntity.ok(response);
     }

@@ -15,6 +15,6 @@ public class ExternalAdapter implements ServiceRepositoryPort {
 
     @Override
     public String getHelloName(String name) {
-        return "Hello" + name;
+        return "Hello " + name;
     }
 }
