@@ -11,12 +11,12 @@ import org.springframework.context.annotation.Configuration;
 public class ServiceConfig {
 
     @Bean
-    public ServiceRepositoryPort serviceRepositoryPort(){
+    public ServiceRepositoryPort serviceRepositoryPort() {
         return new ExternalAdapter();
     }
 
     @Bean
-public ServiceAdapter serviceAdapter(ServiceRepositoryPort serviceRepositoryPort){
+    public ServiceAdapter serviceAdapter(ServiceRepositoryPort serviceRepositoryPort) {
         return new ServiceAdapterImpl(serviceRepositoryPort);
     }
 }

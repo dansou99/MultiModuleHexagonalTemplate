@@ -8,7 +8,7 @@ public class ExternalAdapter implements ServiceRepositoryPort {
 
     private final Logger LOG = LoggerFactory.getLogger(ExternalAdapter.class);
 
-    public ExternalAdapter(){
+    public ExternalAdapter() {
 
     }
 
